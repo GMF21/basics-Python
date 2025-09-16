@@ -55,3 +55,14 @@ def repetir():
     return
 
 repetir()
+
+#função com parametros
+def repetirVezes(vezes):
+    i=0
+    while i <= 10:
+        print("repetição", i)
+        i += 2
+    return
+
+repetirVezes(5)
+    
