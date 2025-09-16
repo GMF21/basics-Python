@@ -32,3 +32,26 @@ print(idade < 18)
 print(idade >= 18 and nome)
 print(idade >= 18 or estudante)
 print(not estudante)
+
+# laços de repetição
+
+for i in range(0,10,2):
+    print("repetição", i)
+
+
+i=0
+while i <= 10:
+    print("repetição", i)
+    i += 2
+
+
+# funções (quando utilizando funções chama se programação funcional)
+
+def repetir():
+    i=0
+    while i <= 10:
+        print("repetição", i)
+        i += 2
+    return
+
+repetir()
