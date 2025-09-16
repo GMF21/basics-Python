@@ -66,3 +66,8 @@ def repetirVezes(vezes):
 
 repetirVezes(5)
     
+#funções com retorno 
+def somar(a, b):
+    return a + b
+resultado = somar(5+3)
+print("resultado: ", resultado)
