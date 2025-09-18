@@ -71,3 +71,12 @@ def somar(a, b):
     return a + b
 resultado = somar(5+3)
 print("resultado: ", resultado)
+
+
+# bibliotecas 
+import math
+
+raiz = math.sqrt(16)
+print("raiz quadrada de 16 é: ", raiz)
+potencia = math.pow(2, 3)
+print("2 elevado a 3 é: ", potencia)
