@@ -1,14 +1,20 @@
-lista = ["Água", "Fruta", "carne"]
+lista = ["forno", "fogão", "água"]
 
-add = input(str("Adiciona um novo produto: "))
+try:
 
-lista.append(add) #funcao para adicionar no array
+    add = int(input("queres adicionar um novo produto a tua lista? (1-sim/2-não)"))
+except ValueError:
+    print("Digita 1 para adicionar e 2 para não")
 
-quantidade = len(lista) #para saber o tamanho
+if add == 1:
+    produto = input(str("Nome do produto: "))
+    lista.append(produto)
+elif add == 2:
+    print("não adicionaste nenhum produto a mais")
+    
 
-print(f"quantidade de produtos {quantidade} :")
+quantidade = len(lista)
+x = ", ".join(lista)
 
-x = ", ".join(lista) #junta tudo
-print(x)
-
+print(f"Tens {quantidade} na tua lista: {x}")
 
