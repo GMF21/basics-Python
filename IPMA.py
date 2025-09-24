@@ -20,11 +20,11 @@ def main():
             print(f"Country: '{dados.get('country')}'")
 
             for sismo in dados.get("data"):
-                print(f"Local: '{sismo.get('local')}'")
-                print(f"Time: '{sismo.get('time')}'")
-                print(f"Magnitude: '{sismo.get('magnitud')}'")
-                print(f"Latitude: '{sismo.get('lat')}'")
-                print(f"Longitude: '{sismo.get('lon')}'")
+                print(f"Local: '{sismo['local']}'")
+                print(f"Time: '{sismo['time']}'")
+                print(f"Magnitude: '{sismo['magnitud']}'")
+                print(f"Latitude: '{sismo['lat']}'")
+                print(f"Longitude: '{sismo['lon']}'")
                 print("------------------------------------")
 
 
