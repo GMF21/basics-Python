@@ -1,6 +1,10 @@
 #(metodos e atributos)
 #se quiser fazer a class noutro ficheiro tbm da so meter o nome do ficheiro com o nome da class de letra pequena e usar
 #from ex:"car"(nome do ficheiro) import ex:Car(nome da classe)
+# O Python cria um objeto na memória.
+# Esse objeto (car1) precisa de uma forma de aceder às suas variáveis e métodos.
+# É aí que entra o self:
+# Dentro da classe, o self representa aquele objeto específico que chamou o método.
 class Car:
     def __init__(self, modelo, ano, cor):  #construtor
         self.modelo = modelo
